@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
         acuantIP.ios.vendored_frameworks = "EmbeddedFrameworks/AcuantIPLiveness.framework"
         
         acuantIP.dependency "#{s.name}/AcuantCommon"
-        acuantIP.dependency 'iProov', '~> 7.5.0'
+        acuantIP.dependency 'iProov', :git => "https://github.com/imhafeez/ios.git"
     end
     
     s.subspec 'AcuantEchipReader' do |acuantEchip|
