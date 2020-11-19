@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.platform = :ios
-    s.swift_versions = ['5.3']
+    s.swift_versions = ['5.3.1']
     s.ios.deployment_target = '11.0'
     s.name         = "AcuantiOSSDKV11"
     s.version      = "11.4.5"
